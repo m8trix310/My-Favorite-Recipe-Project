@@ -93,8 +93,9 @@ h2 {
     border: 3px outset rgb(99, 99, 99);
     border-radius: 10px;
     background-color: rgb(129, 133, 133);
-    margin: 5px;
+    margin: 5px 5px 5px 2px;
     padding: 0 15px;
+   
 }
 
 .food-img {
@@ -102,7 +103,8 @@ h2 {
     border-radius: 25px;
     padding: 15px;
     margin: 2px;
-    background-color: #afaeae;
+    background-color: #afaeae; 
+   
 }
 
 .chef-cartoon {
@@ -114,6 +116,15 @@ justify-content: center;
 figure {
     padding: 10px;
     margin: 5px;
+}
+.fig-text{
+    font-size: 7px;
+    color: white;
+    font-family: cursive;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    text-align: center;
 }
 
 ul,
