@@ -40,9 +40,6 @@ h2 {
     border: 3px #666;
     border-style: none outset none outset;
     
-
-
-
 }
 
 .nav-menu-horizontal {
@@ -65,7 +62,7 @@ h2 {
 }
 
 .nav-menu-horizontal a:hover {
-    background: #ddd;
+    background: #455947;
     color: rgb(161, 186, 69);
 }
 
@@ -84,7 +81,12 @@ h2 {
 
 }
 
+.food-img-recipes {
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    margin: 5px;
 
+}
 
 .thumbnail-img {
     display: flex;
@@ -93,18 +95,29 @@ h2 {
     border: 3px outset rgb(99, 99, 99);
     border-radius: 10px;
     background-color: rgb(129, 133, 133);
-    margin: 5px 5px 5px 2px;
+    margin: 1px 5px 5px 2px;
     padding: 0 15px;
+   
    
 }
 
 .food-img {
-    border: 2px solid rgb(136, 136, 136);
+    border: 2px solid rgb(95, 94, 94);
     border-radius: 25px;
     padding: 15px;
     margin: 2px;
+    margin-top: 10px;
     background-color: #afaeae; 
+    box-shadow: 0 5px #999;
    
+}
+
+.food-img:hover {background-color: #d9d9d9}
+
+.food-img:active {
+  background-color: #cdf4ce;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 .chef-cartoon {
